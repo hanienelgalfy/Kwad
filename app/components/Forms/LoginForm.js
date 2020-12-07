@@ -70,7 +70,8 @@ class LoginForm extends React.Component { // eslint-disable-line
         <Hidden mdUp>
           <div className={classes.headLogo}>
             <NavLink to="/" className={classes.brand}>
-              <img src={logo}  />
+              <img src={logo} alt={brand.name} />
+              {brand.name}
             </NavLink>
           </div>
         </Hidden>

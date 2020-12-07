@@ -27,6 +27,8 @@ const styles = theme => ({
   },
   button: {},
   rootFull: {
+    display: 'flex',
+    justifyContent: 'center',
     ...rootWraper,
     height: '100%',
   },
@@ -150,6 +152,7 @@ const styles = theme => ({
     },
   },
   pageFormSideWrap: {
+    marginTop: 50, 
     margin: '0 auto',
     [theme.breakpoints.only('sm')]: {
       width: 600,
@@ -157,7 +160,8 @@ const styles = theme => ({
   },
   formControl: {
     width: '100%',
-    marginBottom: theme.spacing(2)
+    justifyContent: 'center',
+    marginBottom: theme.spacing(3)
   },
   socmedLogin: {
     [theme.breakpoints.up('sm')]: {
@@ -221,6 +225,7 @@ const styles = theme => ({
     width: '100%'
   },
   title: {
+    marginTop: 50,
     color: theme.palette.primary.main,
     fontWeight: 700,
     fontSize: 32,
@@ -339,6 +344,7 @@ const styles = theme => ({
     },
   },
   buttonLink: {
+    marginTop: 50,
     background: 'none',
     padding: 0,
     textTransform: 'none',
