@@ -152,12 +152,12 @@ const styles = theme => ({
   pageFormSideWrap: {
     margin: '0 auto',
     [theme.breakpoints.only('sm')]: {
-      width: 480,
+      width: 600,
     },
   },
   formControl: {
     width: '100%',
-    marginBottom: theme.spacing(1)
+    marginBottom: theme.spacing(2)
   },
   socmedLogin: {
     [theme.breakpoints.up('sm')]: {
@@ -269,7 +269,7 @@ const styles = theme => ({
     padding: theme.spacing(7)
   },
   openingHead: {
-    marginBottom: 100,
+    marginBottom: 200
   },
   openingFooter: {
     position: 'relative',

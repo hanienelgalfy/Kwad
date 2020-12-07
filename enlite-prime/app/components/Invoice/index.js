@@ -174,7 +174,7 @@ c/o Steve Widget
           <div id="identity">
             <textarea id="address" value={address} onChange={this.handleChange('address')} />
             <div id="logo">
-              <img id="image" width="80" src="/images/logo.png" alt="logo" />
+              <img id="image" width="80" src="/images/kwad.png" alt="logo" />
             </div>
 
           </div>

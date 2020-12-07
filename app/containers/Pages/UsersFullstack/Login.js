@@ -9,7 +9,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { withStyles } from '@material-ui/core/styles';
 import { LoginFormFirebase, SelectLanguage } from 'enl-components';
-import logo from 'enl-images/logo.svg';
+import logo from '../../../../enlite-prime/public/images/kwad.svg';
 import ArrowBack from '@material-ui/icons/ArrowBack';
 import styles from 'enl-components/Forms/user-jss';
 import { FormattedMessage } from 'react-intl';
@@ -20,6 +20,7 @@ class Login extends React.Component {
   state = {
     valueForm: []
   }
+  
 
   submitForm(values) {
     const { valueForm } = this.state;
@@ -50,8 +51,7 @@ class Login extends React.Component {
               <div className={classes.openingWrap}>
                 <div className={classes.openingHead}>
                   <NavLink to="/" className={classes.brand}>
-                    <img src={logo} alt={brand.name} />
-                    {brand.name}
+                    <img src={logo} style={{width: 50 , height: 50}}/>
                   </NavLink>
                 </div>
                 <Typography variant="h3" component="h1" gutterBottom>
